@@ -1,4 +1,4 @@
-puts " Enter value 1, the Intro"
+puts " Enter value 1, then Intro"
 val1 = gets.chomp
 val1 = val1.to_i
 puts " Enter value 2, then Intro"
