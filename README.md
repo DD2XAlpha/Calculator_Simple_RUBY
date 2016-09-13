@@ -7,6 +7,9 @@ It will ask for the fisrt value, put the number you want, then ENTER. After that
 
 You can see the code and it have val1 and val2 = gets.chomp and then val1 and val2 = .to_i to translate them from text to numbers.
 
-Update v0.2
+Update v0.2.1
 -Added support for +, -, /, *
-Next update will be the translate to english :)
+
+Next updates will support decimals.
+
+Please support my work and help me :)
