@@ -4,12 +4,12 @@ puts " #########################################################################
 puts " "
 puts " Signs of operation that can be used: +, -, *, x, /"
 puts " "
-puts " Introduce el primer valor"
+puts " Enter first value"
 val1 = gets.chomp
 val1 = val1.to_i
-puts " Introduce operacion"
+puts " Enter operation"
 oper = gets.chomp
-puts " Introduce el segundo valor"
+puts " Enter second value"
 val2 = gets.chomp
 val2 = val2.to_i
 puts " ="
@@ -28,5 +28,5 @@ end
 if oper == "/"
 	puts val1 / val2
 end
-puts "Pulsa enter para salir"
-salir = gets.chomp
+puts "Press Intro to exit"
+close = gets.chomp
