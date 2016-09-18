@@ -1,12 +1,32 @@
-#Use sublime text2 or any other text editor
-#If you Dont have Ruby installed on your PC visit: https://www.ruby-lang.org
-puts " Enter value 1, then Intro"
+puts " ------------------------------Calculator--------------------------------------"
+puts " #                       DEVELOPED BY DD2XALPHA                           #"
+puts " ##############################################################################"
+puts " "
+puts " Signs of operation that can be used: +, -, *, x, /"
+puts " "
+puts " Enter first value"
 val1 = gets.chomp
 val1 = val1.to_i
-puts " Enter value 2, then Intro"
+puts " Enter operation"
+oper = gets.chomp
+puts " Enter second value"
 val2 = gets.chomp
 val2 = val2.to_i
 puts " ="
-puts val1 + val2
-puts " Press ENTER to exit"
-Exit = gets.chomp
+if oper == "+"
+     puts val1 + val2
+end
+if oper == "-"
+	puts val1 - val2
+end
+if oper == "*"
+	puts val1 * val2
+end
+if oper == "x"
+	puts val1 * val2
+end
+if oper == "/"
+	puts val1 / val2
+end
+puts "Press Intro to exit"
+close = gets.chomp
