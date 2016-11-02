@@ -1,6 +1,5 @@
 # Calculator_Simple_RUBY
 This is a calculator based on Ruby.
-This for now only works with + (plus).
 It is an work for learning code, so, you can take it if you are a student who is learning Ruby.
 As you can see after you run the RUBY app, it is on english, if you need to change it, do it after you download the code or app.
 It will ask for the fisrt value, put the number you want, then ENTER. After that will ask for the next value, introduce it and enter again.
